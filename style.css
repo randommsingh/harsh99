@@ -588,3 +588,21 @@ li{
 .section1{
     margin-top: -55px;
 }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    background-color: #1a1a1a;
+    height: 300px;
+}
+.footer li a{
+    color: rgb(216, 190, 190);
+}
+.end1{
+    margin-top: -78px;
+}
+.end5{
+    margin-top: -20px;
+}
