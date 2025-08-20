@@ -1,37 +1,58 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
 }
 ul {
     display: flex;
     align-items: center;
-    margin: auto;
+    gap: 30px;
 }
 li{
-    margin: 20px;
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+li img{
+    width: 20px;
+    height: auto;
 }
 .drink{
-    background-image: url(image/bg_2.jpeg);
+    background-image: url(image/bg_2.jpg);
     background-repeat: no-repeat;
     color: white;
     width: auto;
     height: 900px;
 }
 .drink h1{
-    padding: 400px 150px 100px 650px;
+    padding-top: 250px;
+    text-align: center;
     font-size: 80px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+      font-family: "Spectral", serif;
+  font-weight: 600;
+  font-style: italic;
+  transform: rotate(-5deg);
 }
 .buttons{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
     gap: 5px;
+    transform: rotate(-5deg);
 }
-.buttons button{
+.btnn{
     width: 130px;
+    height: 50px;
+    color: white;
+    border:none;
+    background-color: #AB4227;
+}
+.btnn1{
+      width: 130px;
     height: 50px;
     background-color: transparent;
     color: white;
@@ -297,7 +318,7 @@ li{
     color: white;
 }
 .section4{
-    background-image: url(image/bg_4.jpeg);
+    background-image: url(image/bg_4.jpg);
     color: white;
     height: 650px;
 }
@@ -350,7 +371,6 @@ li{
     font-size: 12px;
     margin-top: 25px;
     line-height: 1.8;
-}
 }
 .rating3{
     width: 290px;
@@ -598,11 +618,17 @@ li{
     height: 300px;
 }
 .footer li a{
+    list-style-type: none;
+    text-decoration: none;
     color: rgb(216, 190, 190);
 }
+.footer li{
+        padding-top: 10px;
+}
+
 .end1{
-    margin-top: -78px;
+    margin-top: -20px;
 }
 .end5{
-    margin-top: -20px;
+    margin-top: 20px;
 }
